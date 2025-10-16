@@ -6,7 +6,7 @@ import subprocess
 
 class DockerImageManager:
 
-        def __init__(self, image_name: str = "sogpt-python-sandbox"):
+        def __init__(self, image_name: str = "test-image"):
             self.image_name = image_name
         
         def build_image(self, force_rebuild: bool = False) -> bool:
