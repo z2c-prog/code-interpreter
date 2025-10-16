@@ -1,0 +1,12 @@
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+json5==0.9.14
+nltk==3.9
+python-docx==1.2.0
+openpyxl==3.1.5
+PyPDF2==3.0.1
+python-pptx==1.0.2
+Faker==18.9.1
+seaborn==0.13.2
+fpdf==1.7.2
