@@ -6,7 +6,7 @@ import subprocess
 
 class DockerImageManager:
 
-        def __init__(self, image_name: str = "test-image"):
+        def __init__(self, image_name: str = "test_image"):
             self.image_name = image_name
         
         def build_image(self, force_rebuild: bool = False) -> bool:
